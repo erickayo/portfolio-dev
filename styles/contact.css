@@ -25,3 +25,27 @@
     justify-content: center;
     gap: 8px;
 }
+
+.contact-type{
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+
+    a{
+        display: flex;
+        justify-content: space-between;
+        background-color: var(--gray-300);
+        align-items: center;
+        padding: 22px;
+        width: 400px;
+        border-radius: 8px;
+    }
+
+    p{
+        color: var(--gray-500);
+        font: var(--maven-text-md);
+        width: 288px;
+    }
+}
