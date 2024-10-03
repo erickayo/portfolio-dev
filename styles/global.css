@@ -12,12 +12,27 @@
     --gray-500: #C0C4CE;
     --gray-600: #E2E4E9;
 
-    --asap-title-lg: 600 56px/120%;
-    --asap-title-md: 600 24px/120%;
-    --asap-title-sm: 600 16px/120%;
+    --asap-title-lg: 600 56px/120% var(--font-asap);
+    --asap-title-md: 600 24px/120% var(--font-asap);
+    --asap-title-sm: 600 16px/120% var(--font-asap);
 
-    --inconsolata-subtitle: 400 20px/120%;
+    --inconsolata-subtitle: 400 20px/120% var(--font-inconsolata);
 
-    --maven-text-md: 400 16px/140%;
-    --maven-text-sm: 400 14px/140%
+    --maven-text-md: 400 16px/140% var(--font-maven);
+    --maven-text-sm: 400 14px/140% var(--font-maven);
+
+    --font-asap: "Asap", sans-serif;
+    --font-inconsolata: "Inconsolata", monospace;
+    --font-maven: "Maven Pro", sans-serif;
+
+}
+
+ul{
+    list-style: none;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
