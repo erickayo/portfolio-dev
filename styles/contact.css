@@ -1,0 +1,27 @@
+#contact{
+    padding: 128px 120px 200px 120px;
+    background-image: url(/assets/background/Background_Contacts.png);
+}
+
+.contact-header{
+    h3{
+        color: var(--purple);
+        font: var(--inconsolata-subtitle);
+    }
+
+    h1{
+        color: var(--gray-600);
+        font: var(--asap-title-md)
+    }
+
+    p{
+        color: var(--gray-500);
+        font: var(--asap-title-md)
+    }
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
